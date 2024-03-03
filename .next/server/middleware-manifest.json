@@ -1,0 +1,28 @@
+{
+  "sortedMiddleware": [],
+  "middleware": {},
+  "functions": {
+    "/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/page.js"
+      ],
+      "name": "app/page",
+      "page": "/page",
+      "matchers": [
+        {
+          "regexp": "^/$",
+          "originalSource": "/"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    }
+  },
+  "version": 2
+}
